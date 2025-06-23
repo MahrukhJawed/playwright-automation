@@ -1,3 +1,8 @@
+
+![Static Badge](https://img.shields.io/badge/Playwright-Typescript-brightgreen) ![Static Badge](https://img.shields.io/badge/TestAutomation-blue) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/MahrukhJawed/playwright-automation/total)
+![GitHub License](https://img.shields.io/github/license/MahrukhJawed/playwright-automation) ![GitHub forks](https://img.shields.io/github/forks/MahrukhJawed/playwright-automation)
+![GitHub User's stars](https://img.shields.io/github/stars/MahrukhJawed)
+
 # Playwright Typescript - Test Automation Framework
 
 This framework is ideal for teams looking for a robust and scalable solution for their automation needs. It supports UI, API and DB testing, integrates with popular CI/CD tools, and provides detailed reporting for test results.
@@ -46,9 +51,8 @@ Test reports are generated in the `ortoni-report/` directory. Open `ortoni-repor
 ## Visuals
 1. ![image](https://github.com/user-attachments/assets/a7c2bc8e-2f8b-4bc4-84cb-bf0e64b886d4)
 2. ![image](https://github.com/user-attachments/assets/7145952a-f783-4ea0-835d-a6ba23e614a2)
-3. ![image](https://github.com/user-attachments/assets/8090b8db-d94c-42af-8c4f-5c7ceefb2bb0)
-5. ![image](https://github.com/user-attachments/assets/065b4df2-9df6-496d-9bf7-6ade822c0697)
-6. ![image](https://github.com/user-attachments/assets/263d1d1a-6145-4277-aced-6b793bb9b44d)
+3. ![image](https://github.com/user-attachments/assets/a4255be4-e322-489a-b3ca-42086fb29f49)
+4. ![image](https://github.com/user-attachments/assets/263d1d1a-6145-4277-aced-6b793bb9b44d)
 
 
 ## Contributing
