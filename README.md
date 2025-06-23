@@ -44,6 +44,11 @@ Test reports are generated in the `ortoni-report/` directory. Open `ortoni-repor
 
 
 ## Visuals
+1. ![image](https://github.com/user-attachments/assets/a7c2bc8e-2f8b-4bc4-84cb-bf0e64b886d4)
+2. ![image](https://github.com/user-attachments/assets/7145952a-f783-4ea0-835d-a6ba23e614a2)
+3. ![image](https://github.com/user-attachments/assets/8090b8db-d94c-42af-8c4f-5c7ceefb2bb0)
+5. ![image](https://github.com/user-attachments/assets/065b4df2-9df6-496d-9bf7-6ade822c0697)
+6. ![image](https://github.com/user-attachments/assets/263d1d1a-6145-4277-aced-6b793bb9b44d)
 
 
 ## Contributing
