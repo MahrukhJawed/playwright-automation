@@ -1,4 +1,4 @@
-# Test Automation Framework
+# Playwright Typescript - Test Automation Framework
 
 This framework is ideal for teams looking for a robust and scalable solution for their automation needs. It supports UI, API and DB testing, integrates with popular CI/CD tools, and provides detailed reporting for test results.
 

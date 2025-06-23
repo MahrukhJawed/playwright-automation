@@ -21,7 +21,7 @@ const reportConfig: OrtoniReportConfig = {
 }
 
 export default defineConfig({
-  //globalSetup: './config/environments.ts', //Uncomment this to execute tests on local machine
+  globalSetup: './config/environments.ts', //Uncomment this to execute tests on local machine
   timeout: 60000,
   fullyParallel: false,
   forbidOnly: !!process.env.CI,
