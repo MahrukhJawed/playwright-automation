@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                // Target modern JavaScript
+      "module": "CommonJS",           // Use CommonJS module system
+      "esModuleInterop": true,        // Enable compatibility with CommonJS modules
+      "outDir": "./dist",             // Output directory for compiled files
+      "strict": true ,                 // Enable strict type-checking
+      "resolveJsonModule": true,
+      "moduleResolution": "node",       // Use Node.js module resolution
+    },
+    "include": [
+      "config/**/*.ts",
+      "**/*.ts"               // Include your TypeScript files
+    ]
+  }

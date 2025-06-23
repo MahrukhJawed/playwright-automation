@@ -1,0 +1,20 @@
+
+  stages:
+    - playwright-test
+  test:
+    image: mcr.microsoft.com/playwright:v1.52.0
+    stage: playwright-test
+    environment: UAT
+    script:
+      - npm install 
+      - npm run uitest_uat
+      - npm run apitest
+      - npm run dbtest
+    when: manual
+    artifacts:
+      when: always
+      paths:
+        - ortoni-report
+      expire_in: 1 day
+    after_script:
+      - echo "Report is available at https://$CI_PROJECT_ROOT_NAMESPACE.$CI_PAGES_DOMAIN/-/$CI_PROJECT_NAME/-/jobs/$CI_JOB_ID/artifacts/ortoni-report/ortoni-report.html"

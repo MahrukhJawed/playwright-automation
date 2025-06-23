@@ -1,0 +1,38 @@
+{
+  "name": "orangehrm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "uitest_qa": "cross-env NODE_ENV='qa' npx playwright test --project=\"E2E Tests\"",
+    "uitest_uat": "cross-env NODE_ENV='uat' npx playwright test --project=\"E2E Tests\"",
+    "apitest": "npx playwright test --project=\"API Tests\"",
+    "dbtest": "npx playwright test --project=\"DB Tests\"",
+    "lint": "eslint . --ext .ts,.js"
+  },
+
+  "keywords": [],
+  "author": "Mahrukh Jawed",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.12",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0",
+    "ortoni-report": "^3.0.2",
+    "typescript-eslint": "^8.33.0"
+  },
+  "dependencies": {
+    "@estruyf/github-actions-reporter": "^1.10.0",
+    "@types/mssql": "^9.1.7",
+    "dotenv": "^16.5.0",
+    "eslint-plugin-playwright": "^2.2.0",
+    "msnodesqlv8": "^4.5.0",
+    "mssql": "^11.0.1",
+    "prettier": "^3.5.3",
+    "request": "^2.88.2"
+  }
+}

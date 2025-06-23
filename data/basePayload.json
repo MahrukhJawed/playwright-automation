@@ -1,0 +1,18 @@
+{
+    "id": 0,
+    "category": {
+      "id": 0,
+      "name": "tiger"
+    },
+    "name": "Simba",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "wild"
+      }
+    ],
+    "status": "available"
+  }
